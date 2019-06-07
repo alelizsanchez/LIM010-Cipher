@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body background="https://www.canva.com/es_mx/aprende/wp-content/uploads/sites/11/2017/12/brand-color-palette-1.jpg">
   <!-- Cabecera -->
   <header>
     <h1>CODE GIRL</h1>
@@ -16,15 +16,34 @@
   <!-- Contenido principal -->
   <main>
     <p>seguridad de codigos</p>
-    <div>
+    <div id="pantalla1">
       <label for="password">Password</label>
       <input id="pass" type="password" name="password" />
+      <input id="boton_entrar" type="button" value="Entrar" />
     </div>
-    <input id="boton_entrar" type="button" value="Entrar" />
+   
+    <section class="pantalla2 hide" id="pantalla2">
+      <textarea name="data" cols="50" rows="5">
+      </textarea>
+    
+      <textarea name="data" cols="50" rows="5">
+      </textarea>
+      <button class="favorite styled"
+       type="button">
+       Cifrado 
+      </button>
+      <button class="favorite styled"
+            type="button">
+        Descifrado
+      </button>
+    
+    </section>
   </main>
 
-  <!-- Pie de página -->
-  <footer></footer>
+ <!-- Pie de página -->
+  <footer>
+    
+  </footer>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>

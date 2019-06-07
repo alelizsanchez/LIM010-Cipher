@@ -42,7 +42,8 @@ Dándole la seguridad de sus documentos o también incrustando claves para su ma
 De acuerdo al feedback vi  diferentes puntos de vista  que me ayudaron a mejorar mis ideas y ahi haces volar tu imaginación libremente .
 
 ## Imagen del prototipo final en Balsamiq
-
+![imagen](IMG_20190606_092540594.jpg)
+![imagen](IMG_20190606_092554028.jpg)
 
 
 
