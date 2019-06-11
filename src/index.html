@@ -15,29 +15,25 @@
 
   <!-- Contenido principal -->
   <main>
-    <p>seguridad de codigos</p>
-    <div id="pantalla1">
+    
+    <p>Seguridad de codigos</p>
+    <div class="form-area" id="pantalla1">
       <label for="password">Password</label>
       <input id="pass" type="password" name="password" />
       <input id="boton_entrar" type="button" value="Entrar" />
+      <p id="mensaje"></p>
+      <p id="solo tiene 3 intentos"></p>
     </div>
+    
    
-    <section class="pantalla2 hide" id="pantalla2">
-      <textarea name="data" cols="50" rows="5">
-      </textarea>
-    
-      <textarea name="data" cols="50" rows="5">
-      </textarea>
-      <button class="favorite styled"
-       type="button">
-       Cifrado 
-      </button>
-      <button class="favorite styled"
-            type="button">
-        Descifrado
-      </button>
-    
-    </section>
+    <div class="pantalla2 hide" id="pantalla2">
+      <textarea name="texto" id="texto" cols="50" rows="5" placeholder="Texto"></textarea>
+      <textarea name="resultado" id="resultado" cols="50" rows="5" placeholder="resultado"></textarea>
+      <input type="number" id="codigos"> </input>
+
+      <button class="favorite styled" id="cifrado"type="button">Cifrado</button>
+      <button class="favorite styled" id="descifrado"type="button">Descifrado</button>
+    </div>
   </main>
 
  <!-- Pie de página -->

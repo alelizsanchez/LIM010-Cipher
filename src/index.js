@@ -1,26 +1,32 @@
-/* Acá va tu código */
+
+
 const boton_entrar = document.getElementById("boton_entrar");
 let incorrectos = 0;
 
 boton_entrar.addEventListener("click", () => {
-  // console.log(document.getElementById("pass").value);
-
-  if ("laboratoria" === document.getElementById("pass").value) {
-    
-
-
-    if (incorrectos < 3) {
-      console.log("Entraste a tu cuenta");
-      
+  if ("LABORATORIA" === document.getElementById("pass").value) {
       document.getElementById("pantalla1").classList.add("hide");
       document.getElementById("pantalla2").classList.remove("hide");
-    }
-
   } else {
-    console.log("incorrecto");
+    document.getElementById("mensaje").innerHTML = "incorrectos";
     incorrectos = incorrectos + 1;
-
+  if(incorrectos>2){
+    document.getElementById("solo tiene 3 intentos").innerHTML ="solo tienes 3 intentos";
   }
+  } 
 });
 
-/* Acá va tu código */
+// eslint-disable-next-line no-undef
+cifrado.addEventListener("click", () => {
+ let codigos =parseInt(document.getElementById("codigos").value); 
+ let texto = document.getElementById("texto").value;
+ let resultadofinal=cipher.encode(codigos,texto);
+ document.getElementById("resultado").value=resultadofinal;
+ });
+// eslint-disable-next-line no-undef
+descifrado.addEventListener("click", () => {
+  let codigos =parseInt(document.getElementById("codigos").value); 
+  let texto = document.getElementById("texto").value;
+  let resultadofinal1=cipher.decode(codigos,texto);
+  document.getElementById("resultado").value=resultadofinal1;
+  });
