@@ -11,7 +11,7 @@ boton_entrar.addEventListener("click", () => {
     document.getElementById("mensaje").innerHTML = "incorrectos";
     incorrectos = incorrectos + 1;
   if(incorrectos>2){
-    document.getElementById("solo tiene 3 intentos").innerHTML ="solo tienes 3 intentos";
+    document.getElementById("solo tiene 3 intentos").innerHTML ="up! lo sentimos vuelba intentarlo mas tarde";
   }
   } 
 });
