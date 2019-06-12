@@ -14,9 +14,11 @@ h1{
     font-family: 'Permanent Marker', cursive;
     -webkit-text-stroke: 2px #fff;
     color:black;
-    height: 100vh;  
-    font-size: 10vw;
+    height: 65vh;  
+    font-size: 7vw;
+    margin-bottom: -450px;
     }
+    
 P{
     color: red;
 
@@ -27,9 +29,27 @@ body{
     font-family: sans-serif;
     background-size: cover;
 }
-textarea{
-    background:red;
+.pantalla2{
+    padding: 10px;
+
 }
+
+
+
+/*.estilotextarea3{
+    margin-top: -260px;
+    margin-bottom: 100px;
+    margin-left: 700px;
+    display: block;
+    font-family: 'Cabin';
+    border-top: 0px;
+    width: 200px;
+    height: 140px;
+    text-align: justify;
+    text-transform: capitalize;
+    padding: 20px 10px;
+    border: 5px solid #000; 
+   }*/
 .box
 {
     position: absolute;
