@@ -21,7 +21,6 @@ h1{
     
 P{
     color: red;
-
 }
 body{
     margin: 0;
@@ -29,22 +28,6 @@ body{
     font-family: sans-serif;
     background-size: cover;
 }
-.pantalla2{
-    padding: 10px;
-
-}
-
-
-
-.estilotextarea3{
-    margin: 0px 162px 100px 700px;
-    width: 373px;
-    height: 410px;
-    display: block;
-    font-family: 'Cabin';
-    border-top: 0px;
-    border: 5px solid #000; 
-   }
 .box
 {
     position: absolute;
@@ -112,8 +95,68 @@ body{
     border-radius: 5px;
 
 }
-.resultado{
-    padding: 20px 10px;
-    float: right;
-    margin-right: 150px;
-}    
+#texto{
+    border: 0;
+    font-size:x-large;
+    border: 10px dashed #47edf0;
+    margin-right: 800px; 
+    width: 500px;
+    height: 400px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#resultado{ 
+    border: 0;
+    font-size:x-large;
+    width: 500px;
+    height: 400px;
+    margin-bottom: 20px;
+    border: 10px dashed #f094d0;
+    margin-left: 800px;
+    margin-top: -800px; 
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#codigos{
+    font-size:x-large;
+    height: 40px;
+    width: 100px;
+    border: 10px outset #eff848;
+    margin-right: 600px;
+    
+}
+#cifrado{
+    margin-right: 50px;
+    
+}
+#descifrado{
+    margin-right: -400px;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(250, 49, 116);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

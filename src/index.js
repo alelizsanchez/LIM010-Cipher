@@ -8,10 +8,10 @@ boton_entrar.addEventListener("click", () => {
       document.getElementById("pantalla1").classList.add("hide");
       document.getElementById("pantalla2").classList.remove("hide");
   } else {
-    document.getElementById("mensaje").innerHTML = "incorrectos";
+    document.getElementById("mensaje").innerHTML = "te queda 2 intentos";
     incorrectos = incorrectos + 1;
   if(incorrectos>2){
-    document.getElementById("solo tiene 3 intentos").innerHTML ="up! lo sentimos vuelba intentarlo mas tarde";
+    document.getElementById("solo tiene 3 intentos").innerHTML =":( ya realizastes tus 3 intentos ! x  ";
   }
   } 
 });
@@ -30,3 +30,11 @@ descifrado.addEventListener("click", () => {
   let resultadofinal1=cipher.decode(codigos,texto);
   document.getElementById("resultado").value=resultadofinal1;
   });
+
+   document.getElementById("limpiar").addEventListener("click",() =>{
+     document.getElementById("resultado").innerHTML=null;
+     document.getElementById("texto").value=null;
+     document.getElementById("resultado").value=null;
+     document.getElementById("codigos").value=null;
+  });
+   
