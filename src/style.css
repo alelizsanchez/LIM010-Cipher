@@ -121,27 +121,53 @@ body{
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
     inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
+.pie-paguina{
+margin-bottom: 50px;
+}
 
+.fuentes1{
+    margin:0 auto;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    margin-right: 800px;
+  }
+.fuentes2{
+    margin-block-start: -1.5em;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    margin-left: 800px;
+}
+.fuentes3{
+   
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    margin-right: 800px;
+   
+  }
 #codigos{
+    margin:0 auto;
     font-size:x-large;
     height: 40px;
     width: 100px;
     border: 10px outset #eff848;
-    margin-right: 600px;
+    margin-right: 900px;
     
 }
 #cifrado{
-    margin-right: 50px;
+  
+    margin-right: 35px;
+    margin-left: 730px;
     
 }
 #descifrado{
-    margin-right: -400px;
+   
+    margin-right: -214px;
 }
 .styled {
     border: 0;
     line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
+    padding: 0 33px;
+    font-size: 1.3rem;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;

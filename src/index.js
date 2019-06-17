@@ -7,8 +7,9 @@ boton_entrar.addEventListener("click", () => {
   if ("LABORATORIA" === document.getElementById("pass").value) {
       document.getElementById("pantalla1").classList.add("hide");
       document.getElementById("pantalla2").classList.remove("hide");
-  } else {
-    document.getElementById("mensaje").innerHTML = "te queda 2 intentos";
+  }
+ else {
+    document.getElementById("mensaje").innerHTML = "incorrecto";
     incorrectos = incorrectos + 1;
   if(incorrectos>2){
     document.getElementById("solo tiene 3 intentos").innerHTML =":( ya realizastes tus 3 intentos ! x  ";
